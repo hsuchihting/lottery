@@ -42,16 +42,11 @@ background-color: #333;
 		display: flex;
 		justify-content: center;	
 		margin: 165px auto;
-	
-	
-
-	}
-
+		}
 	.btnGroup {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-
 		.btn {
 			position: absolute;
 			bottom: 0;
@@ -63,15 +58,11 @@ background-color: #333;
 			color: #ffc830;
 			font-size: 32px;
 			outline: none;
-
 			&:hover {
 				background: darken(#b81919, 10%);
 				transition: all 0.5s;
 			}
-
-
 		}
-
 		.restart {
 			margin-top: 10px;
 			display: none;
