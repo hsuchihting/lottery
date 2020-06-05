@@ -1,0 +1,17 @@
+@import "_reset";
+@import "_media";
+
+.box {
+	width: 120px;
+	height: 180px;
+	border: 1px solid orange;
+	text-align: center;
+}
+.result {
+	color: red;
+	font-weight: bold;
+}
+.restart {
+	margin-top: 10px;
+	display: none;
+}
